@@ -51,7 +51,7 @@ docker build -t aditya-bhat/face-recognition .
 - Setup the Pi with the camera connected.
 - Use record_video_and_send_API_request.py (sample command given below) to record videos and send the request to the API Gateway endpoint.
 
-### Testing the application with the provided workload generator:
+### Testing the application:
 
 * API Gateway Endpoint URL - https://w97zrvuvtb.execute-api.us-east-1.amazonaws.com/dev/{video_file_name}
 
