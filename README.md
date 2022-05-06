@@ -60,6 +60,5 @@ docker build -t aditya-bhat/face-recognition .
 python3 record_video_and_send_API_request.py \
  --BASE_URL "https://w97zrvuvtb.execute-api.us-east-1.amazonaws.com/dev/" \
  --NUM_CLIPS 600 \
- --CLIP_LENGTH 0.5 \
- --num_request 100
+ --CLIP_LENGTH 0.5
 ```
