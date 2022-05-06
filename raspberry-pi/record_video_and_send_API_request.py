@@ -67,6 +67,6 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     BASE_URL = args.BASE_URL
-    NUM_CLIPS = args.NUM_CLIPS
-    CLIP_LENGTH = args.CLIP_LENGTH
+    NUM_CLIPS = int(args.NUM_CLIPS)
+    CLIP_LENGTH = float(args.CLIP_LENGTH)
     main(BASE_URL,NUM_CLIPS,CLIP_LENGTH)
